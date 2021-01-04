@@ -1,4 +1,4 @@
-```python
+
 import argparse, itertools, os, time
 import numpy as np 
 import matplotlib.pyplot as plt
@@ -93,4 +93,4 @@ for i, batch in enumerate(dataloader):
             counter+=1
 
 torch.cuda.empty_cache()
-```
+
